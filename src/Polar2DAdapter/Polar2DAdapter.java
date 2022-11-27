@@ -12,12 +12,6 @@ public class Polar2DAdapter implements IPolar2D, IVector
         return this.srcVector.abs();
     }
 
-    public double getAngle()
-    {
-        //TODO
-        return 0;
-    }
-
     public double cdot(IVector param)
     {
         return this.srcVector.cdot(param);
@@ -26,6 +20,11 @@ public class Polar2DAdapter implements IPolar2D, IVector
     public ArrayList<Double> getComponents()
     {
         return this.srcVector.getComponents();
+    }
+
+    public double getAngle()
+    {
+        return Math.atan(this.srcVector.getComponents().get(1) / this.srcVector.getComponents().get(0));
     }
 
     private Vector2D srcVector;
