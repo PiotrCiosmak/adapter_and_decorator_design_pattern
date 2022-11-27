@@ -31,8 +31,8 @@ public class Vector3DInheritance extends Vector2D
     public ArrayList<Double> getComponents()
     {
         ArrayList<Double> arrayList = new ArrayList<>();
-        arrayList.add(getComponents().get(0));
-        arrayList.add(getComponents().get(1));
+        arrayList.add(super.getComponents().get(0));
+        arrayList.add(super.getComponents().get(1));
         arrayList.add(z);
         return arrayList;
     }
