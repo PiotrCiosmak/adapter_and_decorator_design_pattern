@@ -19,7 +19,7 @@ public class Vector2D implements IVector
 
     public double cdot(IVector param)
     {
-        return x * y + param.getX() * param.getY();
+        return x * y + param.getComponents().get(0) * param.getComponents().get(1);
     }
 
     private double x;
