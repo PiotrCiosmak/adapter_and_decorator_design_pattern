@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Vector3DDecorator implements IVector
 {
-    Vector3DDecorator(double x, double y, double z)
+    public Vector3DDecorator(double x, double y, double z)
     {
         srcVector = new Vector2D(x, y);
         this.z = z;
