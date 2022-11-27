@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ea2c69-8bdb-47fc-a4f0-0885b2bebd4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polar2DAdapter/IPolar2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polar2DAdapter/Polar2DAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector2D/IVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector2D/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector3DDecorator/Vector3DDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector3DInheritance/Vector3DInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="51ea2c69-8bdb-47fc-a4f0-0885b2bebd4c" name="Changes" comment="constructor is now public">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector2D/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector2D/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector3DInheritance/Vector3DInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector3DInheritance/Vector3DInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2DPolarInheritance/_2DPolarinheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2DPolarInheritance/_2DPolarinheritance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,8 +49,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668976791016</updated>
-      <workItem from="1668976794124" duration="2701000" />
+      <workItem from="1668976794124" duration="2959000" />
+      <workItem from="1669554215359" duration="10394000" />
     </task>
+    <task id="LOCAL-00001" summary="first config">
+      <created>1668979541994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668979541994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cdot function done">
+      <created>1669572090573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669572090573</updated>
+    </task>
+    <task id="LOCAL-00003" summary="function getAngle done">
+      <created>1669572170609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669572170609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="function getAngle done">
+      <created>1669577282657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669577282657</updated>
+    </task>
+    <task id="LOCAL-00005" summary="almost done">
+      <created>1669577352745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669577352745</updated>
+    </task>
+    <task id="LOCAL-00006" summary="constructor added">
+      <created>1669578895005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669578895005</updated>
+    </task>
+    <task id="LOCAL-00007" summary="constructor added">
+      <created>1669578914791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669578914791</updated>
+    </task>
+    <task id="LOCAL-00008" summary="done">
+      <created>1669579036838</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579036838</updated>
+    </task>
+    <task id="LOCAL-00009" summary="constructor is now public">
+      <created>1669579138589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669579138589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +131,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first config" />
+    <MESSAGE value="cdot function done" />
+    <MESSAGE value="function getAngle done" />
+    <MESSAGE value="almost done" />
+    <MESSAGE value="constructor added" />
+    <MESSAGE value="done" />
+    <MESSAGE value="constructor is now public" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructor is now public" />
   </component>
 </project>
