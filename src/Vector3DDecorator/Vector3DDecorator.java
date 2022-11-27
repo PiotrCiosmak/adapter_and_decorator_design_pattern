@@ -1,6 +1,7 @@
 package Vector3DDecorator;
 
 import Vector2D.IVector;
+import Vector2D.Vector2D;
 
 import java.util.ArrayList;
 
@@ -8,9 +9,7 @@ public class Vector3DDecorator implements IVector
 {
     Vector3DDecorator(double x, double y, double z)
     {
-        //TODO ustawić srcVector jakiś x i y
-        this.srcVector.setX(x);
-        this.srcVector.setY(x);
+        srcVector = new Vector2D(x, y);
         this.z = z;
     }
 
