@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class Vector2D implements IVector
 {
+    public Vector2D(double x, double y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
     public ArrayList<Double> getComponents()
     {
         ArrayList<Double> arrayList = new ArrayList<>();
